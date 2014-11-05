@@ -14,6 +14,8 @@
 		B7CB12771A032F4A00996740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12761A032F4A00996740 /* Images.xcassets */; };
 		B7CB127A1A032F4A00996740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12781A032F4A00996740 /* LaunchScreen.xib */; };
 		B7CB12861A032F4A00996740 /* snowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12851A032F4A00996740 /* snowTests.m */; };
+		B7CB12921A032F5D00996740 /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12901A032F5D00996740 /* SnowViewController.m */; };
+		B7CB12931A032F5D00996740 /* SnowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12911A032F5D00996740 /* SnowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		B7CB127F1A032F4A00996740 /* snowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CB12841A032F4A00996740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7CB12851A032F4A00996740 /* snowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snowTests.m; sourceTree = "<group>"; };
+		B7CB128F1A032F5D00996740 /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		B7CB12901A032F5D00996740 /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		B7CB12911A032F5D00996740 /* SnowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				B7CB12761A032F4A00996740 /* Images.xcassets */,
 				B7CB12781A032F4A00996740 /* LaunchScreen.xib */,
 				B7CB12691A032F4A00996740 /* Supporting Files */,
+				B7CB128F1A032F5D00996740 /* SnowViewController.h */,
+				B7CB12901A032F5D00996740 /* SnowViewController.m */,
+				B7CB12911A032F5D00996740 /* SnowViewController.xib */,
 			);
 			path = snow;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7CB12751A032F4A00996740 /* Main.storyboard in Resources */,
+				B7CB12931A032F5D00996740 /* SnowViewController.xib in Resources */,
 				B7CB127A1A032F4A00996740 /* LaunchScreen.xib in Resources */,
 				B7CB12771A032F4A00996740 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7CB12721A032F4A00996740 /* ViewController.m in Sources */,
+				B7CB12921A032F5D00996740 /* SnowViewController.m in Sources */,
 				B7CB126F1A032F4A00996740 /* AppDelegate.m in Sources */,
 				B7CB126C1A032F4A00996740 /* main.m in Sources */,
 			);
